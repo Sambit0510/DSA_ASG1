@@ -1,22 +1,16 @@
-#include<bits/stdc++.h>
+#include<stdio.h>
+#include<string.h>
 #define int long long
-using namespace std;
 const int MOD=1e9+7;
 
 
 
-signed main (){
-
-
-//    ios::sync_with_stdio(false);
-//    cin.tie(nullptr);
-//    cout.tie(nullptr);
-   string s;
-   cin>>s;
-   //int n = strlen(s);
+int main (){
+   char s[100];
+   gets(s);
    if (s[0]=='.' || s[s.length()-1]=='.')
-     cout<<"invlaid"<<endl;
+     print("Invalid");
    else
-    cout<<"Valid"<<endl;
+    print("Valid");
    return 0;
 }
